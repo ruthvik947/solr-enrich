@@ -1,0 +1,19 @@
+Namespace(dest='http://polar.usc.edu/solr/temporal', name='temp', rounds=1, rows=1000, source='http://polar.usc.edu/solr/polar', start=0, tika='http://localhost:9998/tika')
+Solr Source http://polar.usc.edu/solr/polar
+Solr Dest http://polar.usc.edu/solr/temporal
+Tika http://localhost:9998/tika
+Start: 0
+Rows: 1000
+---------------
+
+Fetching 1000 rows from 0
+Failed at start 0 Query: 0
+Solr responded with an error (HTTP 502): [Reason: None]
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"><html><head><title>502 Bad Gateway</title></head><body><h1>Bad Gateway</h1><p>The proxy server received an invalidresponse from an upstream server.</p><hr><address>Apache/2.2.15 (CentOS) Server at polar.usc.edu Port 80</address></body></html>
+
+---------------
+Hit Solr 1 times
+Total documents found:  1000
+Successfully indexed 1000 docs
+Failed at starts: [0]
+Exiting...
